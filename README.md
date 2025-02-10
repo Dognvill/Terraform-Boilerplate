@@ -9,20 +9,6 @@ Secure default configurations
 State file backend configuration
 Proper naming conventions and tagging
 
-### Repository Structure
-
-├── main.tf                # Main resource configurations
-├── variables.tf           # Variable definitions
-├── versions.tf            # Provider configurations
-├── outputs.tf            # Output definitions
-├── environments/
-│   ├── dev/
-│   │   ├── backend.tfvars # Dev backend configuration
-│   │   └── terraform.tfvars # Dev variables
-│   └── test/
-│       ├── backend.tfvars # Test backend configuration
-│       └── terraform.tfvars # Test variables
-
 ### Setup
 
 1. Login to Azure
